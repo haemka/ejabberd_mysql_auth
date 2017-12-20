@@ -1,0 +1,11 @@
+db:
+  name : postfix
+  user : postfix
+  pass : password
+  host : localhost
+  table : mailbox
+  fields:
+    username : username
+    password : password
+    localpart : local_part
+    domain : domain
